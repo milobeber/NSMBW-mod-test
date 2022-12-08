@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------------
+2022-11-26, 13:31:35
+--------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "reggie.py", line 4400, in <module>
+  File "reggie.py", line 4317, in main
+  File "gamedef.py", line 616, in LoadGameDef
+  File "misc.py", line 645, in LoadSpriteData
+  File "xml\etree\ElementTree.py", line 1197, in parse
+  File "xml\etree\ElementTree.py", line 598, in parse
+  File "<string>", line None
+xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 1, column 0

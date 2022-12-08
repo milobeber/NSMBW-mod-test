@@ -1,0 +1,16 @@
+---
+#Replaces Actor 329 AC_ITEM_KEY (Sprite 77)
+
+
+source_files: [../src/custompakkun.cpp]
+hooks:
+  - name: custompakkunBuild
+    type: add_func_pointer
+    src_addr_pal: 0x8095E108
+    target_func: 'dacustompakkun::build(void)'
+
+  - name: custompakkunSpriteFileInfo
+    type: add_func_pointer
+    src_addr_pal: 0x8031ac80
+    target_func: 'CParcNameList'
+    # 0x8031AB4C + sprite num * 0x4 == offset

@@ -1,0 +1,21 @@
+hooks:
+- name: custompakkunBuild
+  src_addr_jpn: 2157304304
+  src_addr_jpn2: 2157304320
+  src_addr_ntsc: 2157306120
+  src_addr_ntsc2: 2157306136
+  src_addr_pal: 2157306120
+  src_addr_pal2: 2157306136
+  target_func: dacustompakkun::build(void)
+  type: add_func_pointer
+- name: custompakkunSpriteFileInfo
+  src_addr_jpn: 2150737800
+  src_addr_jpn2: 2150737800
+  src_addr_ntsc: 2150738280
+  src_addr_ntsc2: 2150738280
+  src_addr_pal: 2150739072
+  src_addr_pal2: 2150739072
+  target_func: CParcNameList
+  type: add_func_pointer
+source_files:
+- ../src/custompakkun.cpp

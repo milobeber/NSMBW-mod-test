@@ -1,0 +1,21 @@
+hooks:
+- name: SidestepperBuild
+  src_addr_jpn: 2159068088
+  src_addr_jpn2: 2159068120
+  src_addr_ntsc: 2159069912
+  src_addr_ntsc2: 2159069944
+  src_addr_pal: 2159069880
+  src_addr_pal2: 2159069912
+  target_func: daSidestepper_c::build(void)
+  type: add_func_pointer
+- name: SidestepperSpriteFileInfo
+  src_addr_jpn: 2150738264
+  src_addr_jpn2: 2150738264
+  src_addr_ntsc: 2150738744
+  src_addr_ntsc2: 2150738744
+  src_addr_pal: 2150739536
+  src_addr_pal2: 2150739536
+  target_func: SidestepperArcNameList
+  type: add_func_pointer
+source_files:
+- ../src/sidestepper.cpp
