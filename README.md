@@ -1,2 +1,2 @@
-# NSMBW-The-Ending-Worlds
- An unofficial sequel to New Super Mario Bros. Wii
+# NSMBW-mod-test
+ Test for modding an unofficial sequel to New Super Mario Bros. Wii
